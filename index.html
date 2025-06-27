@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Evieee_o0</title>
   <style>
     body {
@@ -53,6 +53,14 @@
       text-align: center;
       color: #aaa;
     }
+    /* 影片區塊調整 */
+    .video-frame {
+      height: 315px;
+      max-width: 560px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
@@ -84,6 +92,27 @@
         直播內容以聊天、遊戲與觀眾互動為主。
         歡迎加入我的實況世界！
       </p>
+    </div>
+
+    <!-- 新增賽事與成績區塊 -->
+    <div class="section">
+      <h2>🏆 賽事與成績</h2>
+      <ul>
+        <li><strong>Apex Legends</strong> S18、S19 台灣區第一名（TW #1）</li>
+        <li>2025 ALGS Open Qualify</li>
+        <li>2024 台大杯 冠軍 (#1)</li>
+        <li>2023 高雄大師盃 第七名 (#7)</li>
+      </ul>
+    </div>
+
+    <!-- 新增精彩影片區塊 -->
+    <div class="section">
+      <h2>📹 精彩影片</h2>
+      <iframe class="video-frame" 
+        src="https://www.youtube.com/embed/Y97lTk9dIdw" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
     </div>
   </div>
 
